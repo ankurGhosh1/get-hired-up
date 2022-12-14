@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "module": "es6",
+    "target": "es6",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    // "typeRoots": ["node_modules/har-format"],
+    "types": ["chrome", "node"]
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["node_modules"]
+}
