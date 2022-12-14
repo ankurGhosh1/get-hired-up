@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "4dayweek Job Search",
-  "description": "4dayweek search extension.",
+  "name": "Hired Up",
+  "description": "Get latest 4 day work week job news in single click.",
   "version": "1.0.0",
   "icons": {
     "16": "hiring.png",
@@ -9,7 +9,7 @@
     "48": "hiring.png"
   },
   "action": {
-    "default_title": "Look for new jobs in 4dayweek.io",
+    "default_title": "Get latest 4 day work week job news in single click.",
     "default_popup": "index.html"
   },
   "host_permissions": ["https://4dayweek.io/api"]

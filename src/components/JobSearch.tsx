@@ -59,6 +59,7 @@ function JobSearch() {
                 logoUrl={job.company.logo_url}
                 companyUrl={job.company.company_url}
                 key={job.id_str}
+                allCompanyJobs={job.company.url}
               ></JobCard>
             ))}
         </div>

@@ -15,6 +15,7 @@ interface IProps {
   url: string;
   logoUrl: string;
   companyUrl: string;
+  allCompanyJobs?: string;
 }
 
 function getDesc(desc: string) {
@@ -42,12 +43,22 @@ function JobCard(props: IProps) {
           </h1>
         ))}
       </div>
-      <a
-        href={props.url}
-        className="mt-2 bg-[#222] text-white p-2 hover:bg-[#fff] hover:text-[#222] font-bold"
-      >
-        Apply
-      </a>
+      <div className="flex justify-between">
+        <a
+          href={props.url}
+          className="mt-2 bg-[#222] text-white p-2 hover:bg-[#fff] hover:text-[#222] font-bold"
+        >
+          Apply
+        </a>
+        {props.allCompanyJobs ? (
+          <a
+            href={props.allCompanyJobs}
+            className="mt-2 bg-[#222] text-white p-2 hover:bg-[#fff] hover:text-[#222] font-bold"
+          >
+            All jobs from {props.company}
+          </a>
+        ) : null}
+      </div>
     </div>
   );
 }
