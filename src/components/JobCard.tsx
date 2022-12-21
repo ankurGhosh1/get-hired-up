@@ -47,6 +47,7 @@ function JobCard(props: IProps) {
         <a
           href={props.url}
           className="mt-2 bg-[#222] text-white p-2 hover:bg-[#fff] hover:text-[#222] font-bold"
+          target="_blank"
         >
           Apply
         </a>
@@ -54,6 +55,7 @@ function JobCard(props: IProps) {
           <a
             href={props.allCompanyJobs}
             className="mt-2 bg-[#222] text-white p-2 hover:bg-[#fff] hover:text-[#222] font-bold"
+            target="_blank"
           >
             All jobs from {props.company}
           </a>

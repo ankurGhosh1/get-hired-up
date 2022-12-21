@@ -86,13 +86,20 @@ function JobSearch() {
           Next
         </button>
       </div>
-      <a
-        href="https://www.flaticon.com/free-icons/recruitment"
-        title="recruitment icons"
-        className="mb-4 mt-2 mx-2 text-xsno-underline text-white"
-      >
-        Icon Source
-      </a>
+      <div className="flex justify-between">
+        <a
+          href="https://arraysnobjects.vercel.app/about"
+          className="mb-4 mt-2 mx-2 text-xsno-underline text-white"
+        >
+          Request an Extension
+        </a>
+        <a
+          href="mailto:ankutcool.kumar@gmail.com"
+          className="mb-4 mt-2 mx-3 text-xsno-underline text-white"
+        >
+          Contact Me
+        </a>
+      </div>
     </div>
   );
 }
